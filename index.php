@@ -26,21 +26,21 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700|Roboto:300,400' rel='stylesheet' type='text/css'>
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="public/assets/css/animate.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="public/assets/css/icomoon.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="public/assets/css/bootstrap.css">
 
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="public/assets/css/style.css">
 
 
 	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="public/assets/js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+        <script src="public/assets/js/respond.min.js"></script>
+        <![endif]-->
 
 
 	</head>
@@ -52,7 +52,7 @@
 					<div class="row">
 						<div class="col-md-3">
 							<div class="fh5co-navbar-brand">
-								<a class="fh5co-logo" href="index.html"><img src="images/brand-nav.png" alt="Closest Logo"></a>
+								<a class="fh5co-logo" href="index.html"><img src="public/uploads/images/brand-nav.png" alt="Closest Logo"></a>
 							</div>
 						</div>
 						<div class="col-md-6">
@@ -91,7 +91,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/work-1.jpg);">
+						<div class="fh5co-grid animate-box" style="background-image: url(public/uploads/images/work-1.jpg);">
 							<a class="image-popup text-center" href="#">
 								<div class="work-title">
 									<h3>Don’t Just Stand There</h3>
@@ -101,7 +101,7 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/work-2.jpg);">
+						<div class="fh5co-grid animate-box" style="background-image: url(public/uploads/images/work-2.jpg);">
 							<a class="image-popup text-center" href="#">
 								<div class="work-title">
 									<h3>Don’t Just Stand There</h3>
@@ -111,7 +111,7 @@
 						</div>
 					</div>
 					<div class="col-md-8">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/work-5.jpg);">
+						<div class="fh5co-grid animate-box" style="background-image: url(public/uploads/images/work-5.jpg);">
 							<a class="image-popup text-center" href="#">
 								<div class="work-title">
 									<h3>Don’t Just Stand There</h3>
@@ -121,7 +121,7 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/work-4.jpg);">
+						<div class="fh5co-grid animate-box" style="background-image: url(public/uploads/images/work-4.jpg);">
 							<a class="image-popup text-center" href="#">
 								<div class="work-title">
 									<h3>Don’t Just Stand There</h3>
@@ -132,7 +132,7 @@
 					</div>
 
 					<div class="col-md-12">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/work-3.jpg);">
+						<div class="fh5co-grid animate-box" style="background-image: url(public/uploads/images/work-3.jpg);">
 							<a class="image-popup text-center" href="#">
 								<div class="work-title">
 									<h3>Ampersand</h3>
@@ -197,16 +197,16 @@
 	<!-- END: box-wrap -->
 	
 	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
+	<script src="public/assets/js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="public/assets/js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="public/assets/js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="public/assets/js/jquery.waypoints.min.js"></script>
 
 	<!-- Main JS (Do not remove) -->
-	<script src="js/main.js"></script>
+	<script src="public/assets/js/main.js"></script>
 
 	</body>
 </html>

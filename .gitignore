@@ -1,5 +1,4 @@
-images/
-
+public/uploads/*
 
 # Editor directories and files
 .DS_Store
