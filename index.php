@@ -58,9 +58,9 @@
 						<div class="col-md-6">
 							<ul class="nav text-center">
 								<li class="active"><a href="index.html"><span>Work</span></a></li>
-								<li><a href="inside.html">About</a></li>
-								<li><a href="services.html">Services</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="inside.php">About</a></li>
+								<li><a href="services.php">Services</a></li>
+								<li><a href="contact.php">Contact</a></li>
 							</ul>
 						</div>
 						<div class="col-md-3">
@@ -185,9 +185,6 @@
 				<div class="row">
 					<div class="col-md-12 text-center ">
 						<div class="footer-widget border">
-							<p class="pull-left"><small>&copy; Closest Free HTML5. All Rights Reserved.</small></p>
-							<p class="pull-right"><small> Designed by  <a href="http://freehtml5.co/" ta>freehtml5.co</a>  Images: <a href="https://unsplash.com/">Unsplash</a></small></p>
-							
 						</div>
 					</div>
 				</div>
