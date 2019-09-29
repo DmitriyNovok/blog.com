@@ -23,7 +23,7 @@
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="favicon.ico">
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700|Roboto:300,400' rel='stylesheet' type='text/css'>
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="public/assets/css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -57,7 +57,7 @@
 							<ul class="nav text-center">
 								<li><a href="index.html"><span>Work</span></a></li>
 								<li class="active"><a href="inside.html">About</a></li>
-								<li><a href="services.html">Services</a></li>
+								<li><a href="services.php">Services</a></li>
 								<li><a href="contact.html">Contact</a></li>
 							</ul>
 						</div>
@@ -105,7 +105,7 @@
 			</div>
 		</main>
 
-		
+
 		<section id="product">
 			<div class="container">
 				<div class="row animate-box">
@@ -173,7 +173,7 @@
 							<div class="service-icon">
 								<i class="icon-command"></i>
 							</div>
-							<h2>Brand Identity</h2>	
+							<h2>Brand Identity</h2>
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
 						</div>
 					</div>
@@ -211,7 +211,7 @@
 		</footer>
 	</div>
 	<!-- END: box-wrap -->
-	
+
 	<!-- jQuery -->
 	<script src="public/assets/js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
