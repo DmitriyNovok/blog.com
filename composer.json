@@ -1,0 +1,10 @@
+{
+    "name": "dmitriy/vehicleblog.com",
+    "authors": [
+        {
+            "name": "DmitriyNovok",
+            "email": "steamap@mail.ru"
+        }
+    ],
+    "require": {}
+}
