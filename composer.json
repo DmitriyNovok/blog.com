@@ -6,5 +6,7 @@
             "email": "steamap@mail.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "laravel/lumen-installer": "^1.1"
+    }
 }

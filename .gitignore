@@ -1,8 +1,5 @@
-public/uploads/*
-
+/vendor/
 # Editor directories and files
 .DS_Store
 .idea
 .idea/
-
-/vendor/
