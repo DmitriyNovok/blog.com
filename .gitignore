@@ -1,6 +1,9 @@
-/vendor/
-/node_modules/
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+
 # Editor directories and files
 .DS_Store
 .idea
-.idea/
