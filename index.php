@@ -24,22 +24,22 @@
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700|Roboto:300,400' rel='stylesheet' type='text/css'>
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="public/assets/css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="public/assets/css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="public/assets/css/bootstrap.css">
 
-	<link rel="stylesheet" href="public/assets/css/style.css">
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="/assets/css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="/assets/css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="/assets/css/bootstrap.css">
+
+	<link rel="stylesheet" href="/assets/css/style.css">
 
 
 	<!-- Modernizr JS -->
-	<script src="public/assets/js/modernizr-2.6.2.min.js"></script>
+	<script src="/assets/js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
-        <script src="public/assets/js/respond.min.js"></script>
+        <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
 
 
@@ -154,7 +154,7 @@
 							<div class="service-icon">
 								<i class="icon-command"></i>
 							</div>
-							<h2>Brand Identity</h2>	
+							<h2>Brand Identity</h2>
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
 						</div>
 					</div>
@@ -192,18 +192,18 @@
 		</footer>
 	</div>
 	<!-- END: box-wrap -->
-	
+
 	<!-- jQuery -->
-	<script src="public/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
-	<script src="public/assets/js/jquery.easing.1.3.js"></script>
+	<script src="/assets/js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="public/assets/js/bootstrap.min.js"></script>
+	<script src="/assets/js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
-	<script src="public/assets/js/jquery.waypoints.min.js"></script>
+	<script src="/assets/js/jquery.waypoints.min.js"></script>
 
 	<!-- Main JS (Do not remove) -->
-	<script src="public/assets/js/main.js"></script>
+	<script src="/assets/js/main.js"></script>
 
 	</body>
 </html>
