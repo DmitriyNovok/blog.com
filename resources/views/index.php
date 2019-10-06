@@ -52,7 +52,7 @@
 					<div class="row">
 						<div class="col-md-3">
 							<div class="fh5co-navbar-brand">
-								<a class="fh5co-logo" href="index.html"><img src="public/uploads/images/brand-nav.png" alt="Closest Logo"></a>
+								<a class="fh5co-logo" href="index.html"><img src="/uploads/images/brand-nav.png" alt="Closest Logo"></a>
 							</div>
 						</div>
 						<div class="col-md-6">
@@ -91,7 +91,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<div class="fh5co-grid animate-box" style="background-image: url(public/uploads/images/work-1.jpg);">
+						<div class="fh5co-grid animate-box" style="background-image: url(/uploads/images/work-1.jpg);">
 							<a class="image-popup text-center" href="#">
 								<div class="work-title">
 									<h3>Don’t Just Stand There</h3>
@@ -101,7 +101,7 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="fh5co-grid animate-box" style="background-image: url(public/uploads/images/work-2.jpg);">
+						<div class="fh5co-grid animate-box" style="background-image: url(/uploads/images/work-2.jpg);">
 							<a class="image-popup text-center" href="#">
 								<div class="work-title">
 									<h3>Don’t Just Stand There</h3>
@@ -111,7 +111,7 @@
 						</div>
 					</div>
 					<div class="col-md-8">
-						<div class="fh5co-grid animate-box" style="background-image: url(public/uploads/images/work-5.jpg);">
+						<div class="fh5co-grid animate-box" style="background-image: url(/uploads/images/work-5.jpg);">
 							<a class="image-popup text-center" href="#">
 								<div class="work-title">
 									<h3>Don’t Just Stand There</h3>
@@ -121,7 +121,7 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="fh5co-grid animate-box" style="background-image: url(public/uploads/images/work-4.jpg);">
+						<div class="fh5co-grid animate-box" style="background-image: url(/uploads/images/work-4.jpg);">
 							<a class="image-popup text-center" href="#">
 								<div class="work-title">
 									<h3>Don’t Just Stand There</h3>
@@ -132,7 +132,7 @@
 					</div>
 
 					<div class="col-md-12">
-						<div class="fh5co-grid animate-box" style="background-image: url(public/uploads/images/work-3.jpg);">
+						<div class="fh5co-grid animate-box" style="background-image: url(/uploads/images/work-3.jpg);">
 							<a class="image-popup text-center" href="#">
 								<div class="work-title">
 									<h3>Ampersand</h3>

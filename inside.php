@@ -50,7 +50,7 @@
 					<div class="row">
 						<div class="col-md-3">
 							<div class="fh5co-navbar-brand">
-								<a class="fh5co-logo" href="index.html"><img src="public/uploads/images/brand-nav.png" alt="Closest Logo"></a>
+								<a class="fh5co-logo" href="index.html"><img src="/uploads/images/brand-nav.png" alt="Closest Logo"></a>
 							</div>
 						</div>
 						<div class="col-md-6">
@@ -122,7 +122,7 @@
 					<div class="post-entry">
 						<div class="col-md-6">
 							<div class="post animate-box">
-								<a href="#"><img src="public/uploads/images/work-2.jpg" alt="Product"></a>
+								<a href="#"><img src="/uploads/images/work-2.jpg" alt="Product"></a>
 								<div>
 									<h3><a href="#">Camera Lenses</a></h3>
 									<p>Far far away, behind the word, far from the countries Vokalia</p>
@@ -132,7 +132,7 @@
 						</div>
 						<div class="col-md-6">
 							<div class="post animate-box">
-								<a href="#"><img src="public/uploads/images/work-1.jpg" alt="Product"></a>
+								<a href="#"><img src="/uploads/images/work-1.jpg" alt="Product"></a>
 								<div>
 									<h3><a href="#">Camera Lenses</a></h3>
 									<p>Far far away, behind the word, far from the countries Vokalia</p>
@@ -142,7 +142,7 @@
 						</div>
 						<div class="col-md-6">
 							<div class="post animate-box">
-								<a href="#"><img src="public/uploads/images/work-2.jpg" alt="Product"></a>
+								<a href="#"><img src="/uploads/images/work-2.jpg" alt="Product"></a>
 								<div>
 									<h3><a href="#">Camera Lenses</a></h3>
 									<p>Far far away, behind the word, far from the countries Vokalia</p>
@@ -152,7 +152,7 @@
 						</div>
 						<div class="col-md-6">
 							<div class="post animate-box">
-								<a href="#"><img src="public/uploads/images/work-1.jpg" alt="Product"></a>
+								<a href="#"><img src="/uploads/images/work-1.jpg" alt="Product"></a>
 								<div>
 									<h3><a href="#">Camera Lenses</a></h3>
 									<p>Far far away, behind the word, far from the countries Vokalia</p>
