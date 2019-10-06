@@ -3,11 +3,11 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
+<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Blog vehicle</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Closest &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -30,18 +30,16 @@
 	<link rel="stylesheet" href="/assets/css/icomoon.css">
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="/assets/css/bootstrap.css">
-
 	<link rel="stylesheet" href="/assets/css/style.css">
 
-
 	<!-- Modernizr JS -->
-	<script src="public/assets/js/modernizr-2.6.2.min.js"></script>
+	<script src="/assets/js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
-		<script src="public/assets/js/respond.min.js"></script>
+		<script src="/assets/js/respond.min.js"></script>
 		<![endif]-->
 
-	</head>
+</head>
 	<body>
 	<div class="box-wrap">
 		<header role="banner" id="fh5co-header">
@@ -50,15 +48,15 @@
 					<div class="row">
 						<div class="col-md-3">
 							<div class="fh5co-navbar-brand">
-								<a class="fh5co-logo" href="index.html"><img src="/uploads/images/brand-nav.png" alt="Closest Logo"></a>
+								<a class="fh5co-logo" href="/"><img src="/uploads/images/brand-nav.png" alt="Closest Logo"></a>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<ul class="nav text-center">
-								<li><a href="index.html"><span>Work</span></a></li>
-								<li><a href="inside.html">About</a></li>
-								<li class="active"><a href="services.php">Services</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="/"><span>Work</span></a></li>
+								<li><a href="/about">About</a></li>
+								<li><a href="/services">Services</a></li>
+								<li class="active"><a href="/contact">Contact</a></li>
 							</ul>
 						</div>
 						<div class="col-md-3">
@@ -78,45 +76,57 @@
 				<div class="row">
 					<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
 						<div class="intro animate-box">
-							<h1>Services</h1>
-							<h2>We are web agency based in London &amp; we love functional &amp; meaningful design.</h2>
+							<h1>Contact Us</h1>
 						</div>
 					</div>
 				</div>
 			<div>
 		</section>
 
+		<main id="main">
+			<div class="container">
+				<div class="col-md-8 col-md-offset-2 animate-box">
+					<form action="#">
+						<div class="form-group row">
+							<div class="col-md-6 field">
+								<label for="firstname">First Name</label>
+								<input type="text" name="FName" id="firstname" class="form-control">
+							</div>
+							<div class="col-md-6 field">
+								<label for="lastname">Last Name</label>
+								<input type="text" name="FName" id="lastname" class="form-control">
+							</div>
+						</div>
+						<div class="form-group row">
+							<div class="col-md-6 field">
+								<label for="email">Email</label>
+								<input type="text" name="FName" id="email" class="form-control">
+							</div>
+							<div class="col-md-6 field">
+								<label for="phone">Phone</label>
+								<input type="text" name="FName" id="phone" class="form-control">
+							</div>
+						</div>
+						<div class="form-group row">
+							<div class="col-md-12 field">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
+							</div>
+						</div>
+						<div class="form-group row">
+							<div class="col-md-12 field">
+								<input type="submit" id="submit" class="btn btn-primary" value="Send Message">
+							</div>
+						</div>
+					</form>
+				</div>
+				<!-- <div class="col-md-4"></div> -->
+			</div>
+		</main>
+
 		<section id="services">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 animate-box">
-						<div class="service">
-							<div class="service-icon">
-								<i class="icon-command"></i>
-							</div>
-							<h2>Brand Identity</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-						</div>
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="service">
-							<div class="service-icon">
-								<i class="icon-drop2"></i>
-							</div>
-							<h2>Web Design &amp; UI</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-						</div>
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="service">
-							<div class="service-icon">
-								<i class="icon-anchor"></i>
-							</div>
-							<h2>Development &amp; CMS</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-						</div>
-					</div>
-
 					<div class="col-md-4 animate-box">
 						<div class="service">
 							<div class="service-icon">
@@ -153,7 +163,7 @@
 				<div class="row">
 					<div class="col-md-12 text-center">
 						<div class="footer-widget border">
-						</div>
+                        </div>
 					</div>
 				</div>
 			</div>
@@ -162,16 +172,16 @@
 	<!-- END: box-wrap -->
 
 	<!-- jQuery -->
-	<script src="public/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
-	<script src="public/assets/js/jquery.easing.1.3.js"></script>
+	<script src="/assets/js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="public/assets/js/bootstrap.min.js"></script>
+	<script src="/assets/js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
-	<script src="public/assets/js/jquery.waypoints.min.js"></script>
+	<script src="/assets/js/jquery.waypoints.min.js"></script>
 
 	<!-- Main JS (Do not remove) -->
-	<script src="public/assets/js/main.js"></script>
+	<script src="/assets/js/main.js"></script>
 
 	</body>
 </html>

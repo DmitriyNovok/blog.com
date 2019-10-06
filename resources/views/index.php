@@ -52,15 +52,15 @@
 					<div class="row">
 						<div class="col-md-3">
 							<div class="fh5co-navbar-brand">
-								<a class="fh5co-logo" href="index.html"><img src="/uploads/images/brand-nav.png" alt="Closest Logo"></a>
+								<a class="fh5co-logo" href="/"><img src="/uploads/images/brand-nav.png" alt="Closest Logo"></a>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<ul class="nav text-center">
 								<li class="active"><a href="index.html"><span>Work</span></a></li>
-								<li><a href="../../inside.php">About</a></li>
-								<li><a href="../../services.php">Services</a></li>
-								<li><a href="contact.php">Contact</a></li>
+								<li><a href="/about">About</a></li>
+								<li><a href="/services">Services</a></li>
+								<li><a href="/contact">Contact</a></li>
 							</ul>
 						</div>
 						<div class="col-md-3">

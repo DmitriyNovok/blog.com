@@ -14,3 +14,15 @@
 $router->get('/', function () use ($router) {
     return view('index');
 });
+
+$router->get('/about', function () use ($router) {
+    return view('inside');
+});
+
+$router->get('/services', function () use ($router) {
+    return view('services');
+});
+
+$router->get('/contact', function () use ($router) {
+    return view('contact');
+});

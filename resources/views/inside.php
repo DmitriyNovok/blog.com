@@ -25,21 +25,21 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700|Roboto:300,400' rel='stylesheet' type='text/css'>
 
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="public/assets/css/animate.css">
+	<link rel="stylesheet" href="/assets/css/animate.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="public/assets/css/icomoon.css">
+	<link rel="stylesheet" href="/assets/css/icomoon.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="public/assets/css/bootstrap.css">
+	<link rel="stylesheet" href="/assets/css/bootstrap.css">
 
-	<link rel="stylesheet" href="public/assets/css/style.css">
+	<link rel="stylesheet" href="/assets/css/style.css">
 
 
 	<!-- Modernizr JS -->
-	<script src="public/assets/js/modernizr-2.6.2.min.js"></script>
+	<script src="/assets/js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
-		<script src="public/assets/js/respond.min.js"></script>
-		<![endif]-->
+        <script src="/assets/js/respond.min.js"></script>
+        <![endif]-->
 
 	</head>
 	<body>
@@ -50,15 +50,15 @@
 					<div class="row">
 						<div class="col-md-3">
 							<div class="fh5co-navbar-brand">
-								<a class="fh5co-logo" href="index.html"><img src="/uploads/images/brand-nav.png" alt="Closest Logo"></a>
+								<a class="fh5co-logo" href="/"><img src="/uploads/images/brand-nav.png" alt="Closest Logo"></a>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<ul class="nav text-center">
-								<li><a href="index.html"><span>Work</span></a></li>
-								<li class="active"><a href="inside.html">About</a></li>
-								<li><a href="services.php">Services</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="/"><span>Work</span></a></li>
+								<li class="active"><a href="/about">About</a></li>
+								<li><a href="/services">Services</a></li>
+								<li><a href="/contact">Contact</a></li>
 							</ul>
 						</div>
 						<div class="col-md-3">
@@ -213,16 +213,16 @@
 	<!-- END: box-wrap -->
 
 	<!-- jQuery -->
-	<script src="public/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
-	<script src="public/assets/js/jquery.easing.1.3.js"></script>
+	<script src="/assets/js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="public/assets/js/bootstrap.min.js"></script>
+	<script src="/assets/js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
-	<script src="public/assets/js/jquery.waypoints.min.js"></script>
+	<script src="/assets/js/jquery.waypoints.min.js"></script>
 
 	<!-- Main JS (Do not remove) -->
-	<script src="public/assets/js/main.js"></script>
+	<script src="/assets/js/main.js"></script>
 
 	</body>
 </html>
