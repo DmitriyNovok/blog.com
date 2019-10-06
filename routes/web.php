@@ -12,31 +12,5 @@
 */
 
 $router->get('/', function () use ($router) {
-
-    //echo "Hello from Lumen!";
-
-
-    //return $router->app->version();
+    return view('index');
 });
-
-
-$router->get('/ViewArticle', function () use ($router) {
-
-
-    $data = \Illuminate\Support\Facades\DB::select('SELECT * FROM users WHERE user_id = ?', [34]);
-
-
-   // var_dump($data);
-
-    exit;
-    foreach ($data as $value) {
-        var_dump($value->user_email);
-    }
-    exit;
-
-    var_dump($results);
-
-
-    //return $router->app->version();
-});
-

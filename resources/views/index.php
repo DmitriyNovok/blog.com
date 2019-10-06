@@ -58,8 +58,8 @@
 						<div class="col-md-6">
 							<ul class="nav text-center">
 								<li class="active"><a href="index.html"><span>Work</span></a></li>
-								<li><a href="inside.php">About</a></li>
-								<li><a href="services.php">Services</a></li>
+								<li><a href="../../inside.php">About</a></li>
+								<li><a href="../../services.php">Services</a></li>
 								<li><a href="contact.php">Contact</a></li>
 							</ul>
 						</div>
