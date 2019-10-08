@@ -11,18 +11,18 @@
 |
 */
 
-$app->get('/', function ()  {
+$router->get('/', function () use ($router) {
     return view('index', ['title' => 'Blog vehicle']);
 });
 
-$app->get('/about', function () {
+$router->get('/about', function () use ($router) {
     return view('inside');
 });
 
-$app->get('/services', function ()  {
+$router->get('/services', function () use ($router) {
     return view('services');
 });
 
-$app->get('/contact', function ()  {
+$router->get('/contact', function () use ($router) {
     return view('contact');
 });
