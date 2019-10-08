@@ -57,7 +57,7 @@
 						</div>
 						<div class="col-md-6">
 							<ul class="nav text-center">
-								<li class="active"><a href="index.html"><span>Work11111111</span></a></li>
+								<li class="active"><a href="/"><span>Work</span></a></li>
 								<li><a href="/about">About</a></li>
 								<li><a href="/services">Services</a></li>
 								<li><a href="/contact">Contact</a></li>
