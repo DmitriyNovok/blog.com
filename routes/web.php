@@ -15,14 +15,14 @@ $router->get('/', function () use ($router) {
     return view('index');
 });
 
-$router->get($_SERVER['SERVER_NAME'].'/about', function () use ($router) {
+$router->get('/about', function () use ($router) {
     return view('inside');
 });
 
-$router->get($_SERVER['SERVER_NAME'].'/services', function () use ($router) {
+$router->get('/services', function () use ($router) {
     return view('services');
 });
 
-$router->get($_SERVER['SERVER_NAME'].'/contact', function () use ($router) {
+$router->get('/contact', function () use ($router) {
     return view('contact');
 });
