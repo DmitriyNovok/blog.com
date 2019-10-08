@@ -15,10 +15,8 @@ $router->get('/', function () use ($router) {
     return view('index', ['title' => 'Blog vehicle']);
 });
 
-$router->get('/about', function () use ($app) {
-    $app->get('/about', function ()  {
-        return view('inside');
-    });
+$router->get('/about', function () use ($router) {
+    return view('inside');
 });
 
 $router->get('/services', function () use ($router) {
