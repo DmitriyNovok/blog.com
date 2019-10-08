@@ -58,7 +58,7 @@
 						<div class="col-md-6">
 							<ul class="nav text-center">
 								<li class="active"><a href="/"><span>Work</span></a></li>
-								<li><a href=<?= $_SERVER['DOCUMENT_ROOT'] ?>"/about">About</a></li>
+								<li><a href="/about">About</a></li>
 								<li><a href="/services">Services</a></li>
 								<li><a href="/contact">Contact</a></li>
 							</ul>
