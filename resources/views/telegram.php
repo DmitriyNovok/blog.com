@@ -183,11 +183,9 @@
 
 
 
+$update = json_decode(file_get_contents('php://input'), true);
 
-$update = file_get_contents('php://input');
-$update = json_decode($update, true);
-
-print_r($update); // this is made to check if i get any data or not
+//print_r($update);
 
 $chatId = $update["message"]["chat"]["id"];
 $message = $update["message"]["text"];
@@ -210,28 +208,28 @@ function sendMessage ($chatId, $message) {
     file_get_contents($url);
 }
 
-
-exit;
-
-
-
-$token = '935790601:AAEJP5HwHkkppoK6rL6D3eVESBx1Q_s1j8Y';
-
-$bot = new \TelegramBot\Api\Client($token);
-
-
-$bot->run();
-
-// команда для start
-$bot->command('start', function ($message) use ($bot) {
-    $answer = 'Welcome!';
-    $bot->sendMessage($message->getChat()->getId(), $answer);
-});
-
-// команда для помощи
-$bot->command('help', function ($message) use ($bot) {
-    $answer = 'Commands:
-/help - reference';
-    $bot->sendMessage($message->getChat()->getId(), $answer);
-});
+//
+//exit;
+//
+//
+//
+//$token = '935790601:AAEJP5HwHkkppoK6rL6D3eVESBx1Q_s1j8Y';
+//
+//$bot = new \TelegramBot\Api\Client($token);
+//
+//
+//$bot->run();
+//
+//// команда для start
+//$bot->command('start', function ($message) use ($bot) {
+//    $answer = 'Welcome!';
+//    $bot->sendMessage($message->getChat()->getId(), $answer);
+//});
+//
+//// команда для помощи
+//$bot->command('help', function ($message) use ($bot) {
+//    $answer = 'Commands:
+///help - reference';
+//    $bot->sendMessage($message->getChat()->getId(), $answer);
+//});
 
