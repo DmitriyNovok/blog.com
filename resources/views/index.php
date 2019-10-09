@@ -80,7 +80,7 @@
 				<div class="row">
 					<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
 						<div class="intro animate-box">
-							<h2>Blog history vehicles1.</h2>
+							<h2>Blog history vehicles.</h2>
 						</div>
 					</div>
 				</div>
