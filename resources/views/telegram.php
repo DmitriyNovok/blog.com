@@ -27,14 +27,14 @@ $bot->run();
 
 // команда для start
 $bot->command('start', function ($message) use ($bot) {
-    $answer = 'Добро пожаловать!';
+    $answer = 'Welcome!';
     $bot->sendMessage($message->getChat()->getId(), $answer);
 });
 
 // команда для помощи
 $bot->command('help', function ($message) use ($bot) {
-    $answer = 'Команды:
-/help - вывод справки';
+    $answer = 'Commands:
+/help - reference';
     $bot->sendMessage($message->getChat()->getId(), $answer);
 });
 
