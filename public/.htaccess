@@ -22,5 +22,5 @@
     RewriteRule ^ index.php [L]
 
     RewriteCond %{REQUEST_METHOD} !POST
-    mod_rewrite ^ / [L,F]
+
 </IfModule>
