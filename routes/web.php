@@ -16,15 +16,15 @@ $router->get('/', function () use ($router) {
 });
 
 $router->get('/about', function () use ($router) {
-    return view('inside');
+    return view('inside', ['title' => 'About']);
 });
 
 $router->get('/services', function () use ($router) {
-    return view('services');
+    return view('services', ['title' => 'Services']);
 });
 
 $router->get('/contact', function () use ($router) {
-    return view('contact');
+    return view('contact', ['title' => 'Contact']);
 });
 
 $router->get('/tgbot', function () use ($router) {
