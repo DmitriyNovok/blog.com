@@ -6,29 +6,35 @@
  *  https://api.telegram.org/bot935790601:AAEJP5HwHkkppoK6rL6D3eVESBx1Q_s1j8Y/setWebhook?url=https://kubinx.herokuapp.com/tgbot
  *
  *  Check webhook
- *  https://api.telegram.org/bot935790601:AAHwttXzQNLq8LLajDtyfVl5pdixN-kcBRo/getWebhookInfo
+ *  https://api.telegram.org/bot935790601:AAEJP5HwHkkppoK6rL6D3eVESBx1Q_s1j8Y/getWebhookInfo
  *
- *  https://api.telegram.org/bot935790601:AAHwttXzQNLq8LLajDtyfVl5pdixN-kcBRo/getUpdates
+ *  https://api.telegram.org/bot935790601:AAEJP5HwHkkppoK6rL6D3eVESBx1Q_s1j8Y/getUpdates
  *
  *
- * curl -X GET "https://api.telegram.org/bot935790601:AAHwttXzQNLq8LLajDtyfVl5pdixN-kcBRo/sendMessage?chat_id=581117342&text=Hello telega"
+ * curl -X GET "https://api.telegram.org/bot935790601:AAEJP5HwHkkppoK6rL6D3eVESBx1Q_s1j8Y/sendMessage?chat_id=581117342&text=Hello telega"
  *
  **/
+
+
 
 $token = '935790601:AAEJP5HwHkkppoK6rL6D3eVESBx1Q_s1j8Y';
 
 $bot = new \TelegramBot\Api\Client($token);
+$mess = new TelegramBot\Api\BotApi($token);
+
+
+
 // команда для start
-$bot->command('start', function ($message) use ($bot) {
+$bot->command('start', function ($message) use ($bot, $mess) {
     $answer = 'Добро пожаловать!';
-    $bot->sendMessage($message->getChat()->getId(), $answer);
+    $mess->sendMessage($message->getChat()->getId(), $answer);
 });
 
 // команда для помощи
-$bot->command('help', function ($message) use ($bot) {
+$bot->command('help', function ($message) use ($bot, $mess) {
     $answer = 'Команды:
 /help - вывод справки';
-    $bot->sendMessage($message->getChat()->getId(), $answer);
+    $mess->sendMessage($message->getChat()->getId(), $answer);
 });
 
 $bot->run();
