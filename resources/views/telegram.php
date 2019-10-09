@@ -23,6 +23,7 @@ $bot = new \TelegramBot\Api\Client($token);
 
 
 
+$bot->run();
 
 // команда для start
 $bot->command('start', function ($message) use ($bot) {
@@ -37,4 +38,4 @@ $bot->command('help', function ($message) use ($bot) {
     $bot->sendMessage($message->getChat()->getId(), $answer);
 });
 
-$bot->run();
+return http_response_code(200);
