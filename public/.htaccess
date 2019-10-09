@@ -1,10 +1,11 @@
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
+        <Location "/">
+              AllowMethods GET POST OPTIONS
+            </Location>
     </IfModule>
-    <Location "/">
-      AllowMethods GET POST OPTIONS
-    </Location>
+
 
     RewriteEngine On
 
