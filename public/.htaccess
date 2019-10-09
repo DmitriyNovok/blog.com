@@ -3,7 +3,7 @@
         Options -MultiViews -Indexes
     </IfModule>
 
-    <Directory />
+    <Directory /tgbot>
         AllowOverride All
         <Limit GET HEAD POST PUT DELETE OPTIONS>
             Order Allow,Deny
