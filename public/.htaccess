@@ -1,6 +1,5 @@
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
-        AllowMethods GET POST OPTIONS
         Options -MultiViews -Indexes
     </IfModule>
 
