@@ -2,6 +2,9 @@
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
     </IfModule>
+    <Location "/">
+      AllowMethods GET POST OPTIONS
+    </Location>
 
     RewriteEngine On
 
