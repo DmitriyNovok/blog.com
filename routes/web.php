@@ -26,3 +26,7 @@ $router->get('/services', function () use ($router) {
 $router->get('/contact', function () use ($router) {
     return view('contact');
 });
+
+$router->get('/tgbot', function () use ($router) {
+    return view('telegram');
+});
