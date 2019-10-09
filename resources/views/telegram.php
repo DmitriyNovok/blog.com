@@ -183,53 +183,55 @@
 
 
 
-$update = json_decode(file_get_contents('php://input'), true);
-
-//print_r($update);
-
-$chatId = $update["message"]["chat"]["id"];
-$message = $update["message"]["text"];
-
-
-switch ($message) {
-    case "/test":
-        sendMessage($chatId,"test complete");
-        break;
-    case "/hi":
-        sendMessage($chatId,"hey there");
-        break;
-    default:
-        sendMessage($chatId,"nono i dont understand you");
-}
-
-
-function sendMessage ($chatId, $message) {
-    $url = "https://api.telegram.org/bot935790601:AAEJP5HwHkkppoK6rL6D3eVESBx1Q_s1j8Y/sendMessage?chat_id=".$chatId."&text=".urlencode($message);
-    file_get_contents($url);
-}
+//$update = json_decode(file_get_contents('php://input'), true);
+//
+////print_r($update);
+//
+//$chatId = $update["message"]["chat"]["id"];
+//$message = $update["message"]["text"];
+//
+//
+//switch ($message) {
+//    case "/test":
+//        sendMessage($chatId,"test complete");
+//        break;
+//    case "/hi":
+//        sendMessage($chatId,"hey there");
+//        break;
+//    default:
+//        sendMessage($chatId,"nono i dont understand you");
+//}
+//
+//
+//function sendMessage ($chatId, $message) {
+//    $url = "https://api.telegram.org/bot935790601:AAEJP5HwHkkppoK6rL6D3eVESBx1Q_s1j8Y/sendMessage?chat_id=".$chatId."&text=".urlencode($message);
+//    file_get_contents($url);
+//}
 
 //
 //exit;
 //
 //
 //
-//$token = '935790601:AAEJP5HwHkkppoK6rL6D3eVESBx1Q_s1j8Y';
-//
-//$bot = new \TelegramBot\Api\Client($token);
-//
-//
-//$bot->run();
-//
-//// команда для start
-//$bot->command('start', function ($message) use ($bot) {
-//    $answer = 'Welcome!';
-//    $bot->sendMessage($message->getChat()->getId(), $answer);
-//});
-//
-//// команда для помощи
-//$bot->command('help', function ($message) use ($bot) {
-//    $answer = 'Commands:
-///help - reference';
-//    $bot->sendMessage($message->getChat()->getId(), $answer);
-//});
+
+
+$token = '935790601:AAEJP5HwHkkppoK6rL6D3eVESBx1Q_s1j8Y';
+
+$bot = new \TelegramBot\Api\Client($token);
+
+
+$bot->run();
+
+// команда для start
+$bot->command('start', function ($message) use ($bot) {
+    $answer = 'Welcome!';
+    $bot->sendMessage($message->getChat()->getId(), $answer);
+});
+
+// команда для помощи
+$bot->command('help', function ($message) use ($bot) {
+    $answer = 'Commands:
+/help - reference';
+    $bot->sendMessage($message->getChat()->getId(), $answer);
+});
 
