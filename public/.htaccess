@@ -3,21 +3,6 @@
         Options -MultiViews -Indexes
     </IfModule>
 
-    <Directory />
-     Options -Indexes
-     AllowOverride All
-     Allow from all
-     <Limit GET POST>
-      Order allow,deny
-      Allow from all
-     </Limit>
-     <LimitExcept GET POST>
-      Order deny,allow
-      Deny from all
-     </LimitExcept>
-    </Directory>
-
-
     RewriteEngine On
 
     # Handle Authorization Header
