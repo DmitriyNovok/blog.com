@@ -38,4 +38,4 @@ $bot->command('help', function ($message) use ($bot) {
     $bot->sendMessage($message->getChat()->getId(), $answer);
 });
 
-return http_response_code(200);
+http_response_code(200);
