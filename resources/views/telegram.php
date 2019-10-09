@@ -181,6 +181,38 @@
 
 
 
+ini_set('error_reporting', E_ALL);
+
+
+$update = file_get_contents('php://input');
+$update = json_decode($update, true);
+
+print_r($update); // this is made to check if i get any data or not
+
+$chatId = $update["message"]["chat"]["id"];
+$message = $update["message"]["text"];
+
+
+switch ($message) {
+    case "/test":
+        sendMessage($chatId,"test complete");
+        break;
+    case "/hi":
+        sendMessage($chatId,"hey there");
+        break;
+    default:
+        sendMessage($chatId,"nono i dont understand you");
+}
+
+
+function sendMessage ($chatId, $message) {
+    $url = "https://api.telegram.org/bot935790601:AAEJP5HwHkkppoK6rL6D3eVESBx1Q_s1j8Y/sendMessage?chat_id=".$chatId."&text=".urlencode($message);
+    file_get_contents($url);
+}
+
+
+exit;
+
 
 
 $token = '935790601:AAEJP5HwHkkppoK6rL6D3eVESBx1Q_s1j8Y';
