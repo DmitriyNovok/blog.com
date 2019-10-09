@@ -2,15 +2,6 @@
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
     </IfModule>
-    <Directory />
-     Options -Indexes
-     AllowOverride All
-     Allow from all
-     <Limit GET POST PUT DELETE>
-      Order allow,deny
-      Allow from all
-     </Limit>
-    </Directory>
 
 
     RewriteEngine On
